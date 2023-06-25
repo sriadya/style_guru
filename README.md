@@ -5,7 +5,7 @@ The app uses Openai's DALL-E model to edit an image based on a given prompt.
 
 ![App View](./style_guru_app.PNG)
 
-Openai allows for image creation and editing an existing image. The prompt sketches for the different hairstyles and the test image of a mid 20's make office professional were generated using `openai.Image.create` api. 
+Openai allows for image creation and editing an existing image. The "prompt sketches" for the different hairstyles and the test image of a mid 20's male office professional were generated using `openai.Image.create` api. 
 
 The input image needs to be resized to 1024x1024, saved in `.png` format and should be less than 4MB. This code takes care of the resizing and the format. Only images that are not protected by copyrights and are owned by the user should be used for testing. Openai errors out if unauthorized images are used. 
  
